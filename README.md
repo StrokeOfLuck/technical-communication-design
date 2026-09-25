@@ -2,15 +2,16 @@
 
 Sean Ryan’s selected earlier work in visual instruction, technical documentation, CAD, and fabrication.
 
-Standalone static portfolio site. Open `index.html` using any local static server, or publish the repository root with GitHub Pages (main branch).
+Project assets for the [Technical Communication & Design portfolio page](https://strokeofluck.github.io/sean-data-portfolio/projects/technical-communication-design.html). The project uses the shared layout in `StrokeOfLuck/sean-data-portfolio`; this repository hosts its images and PDFs through GitHub Pages. The root address forwards to the portfolio page.
 
 ## Files and editing
 
-- `index.html`: page content, styles, and interactive photo/PDF previews.
+- `index.html`: redirect to the portfolio project page.
+- Page content and styles: `projects/technical-communication-design.qmd` and `projects/assets/technical-communication-design/project.css` in the portfolio repository.
 - `assets/`: optimized project photographs and model images.
 - `guides/`: downloadable PDFs and preview pages.
 
-All assets are local to this repository. No build step or external dependencies are required.
+All project photos and documents live in this repository. The portfolio page references these published assets; its shared navigation and styling are rendered by Quarto.
 
 ## Document editions
 
